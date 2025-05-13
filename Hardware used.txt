@@ -1,0 +1,52 @@
+Print
+
+All parts are printed with PLA, except the tire which is printed with Flex and the rim which is printed with PET. 
+
+I sadly lost the STL file for the top back that i cutomized but i still got the G-code. I'am sorry for that.
+
+Raspberry pi 
+
+For the raspberry to function you need to install some librarys on the raspberry pi.
+
+Picam2
+curses 
+RPi.GPIO
+smbus
+I don't remember every comand for the terminal but I'am sure you will find them very fast in the internet.
+
+You need the IP-Adress of the raspberry so i recomed to connect the raspberry to a hotspot of your PC, this alows you to see the IP Adress in the settings of your PC.
+
+Run the both commands via a Terminal or a SSH connection. As soon as the rpi_cam.py runs you can find the server with any device that has a web-browser and it needs to be in the same network. 
+
+I did everything with Tigerjython but I guess any program works, but i recomend it. If you use Tigerjython make sure to set the user of the raspberry pi to pi and the password to raspberry this will allow the application to connect to your raspberry pi.
+
+Both codes are here. But somehow they are in the folder for the model files!
+
+ 
+
+Materials
+
+PLA (1kg red and black)
+PET
+TPU
+raspberry pi 3b+
+raspicam model 3
+PCA9685
+l298n
+6x Motors 
+6x sg90 Servos
+a 3s Lipo battery
+and some screws and wires
+LEDs (optional) + 220 Ohm resistor
+battery indicator (optional)
+2x 40mm fans (optional)
+1x old ikea flashlight (optional)
+Ethylacetat (optional)(Don't use it if you're not familiar with it, it is very unhealthy to breath in and to touch!!!!!! But it makes the parts smoother.)
+A lot of wires
+ 
+
+Building Tipps
+
+First of all Start with the body of the rover and then do the arms. 
+
+More force is almost everytime the solution. I'am not that good with CAD drawing but It works and if not I used a drill or a hammer. Be carefull with Powertools they can break the parts easly.
